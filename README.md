@@ -73,7 +73,9 @@ AAOS was created to display the latest acquisitions made at Leiden University Li
 
 ## Getting Started
 
-Built with **Laravel 8**, AAOS follows the same [installation steps](https://laravel.com/docs/8.x/installation) of any application built using this framework. Make sure you have PHP >v.7.3.33, you have created a MySQL database, and off you go! Please refer to the [documentation](https://example.com) for more information.
+ Please refer to the [documentation](https://example.com) for more information about creating a test user, setting up the database, etc.
+
+In general: built with **Laravel 8**, AAOS follows the same [installation steps](https://laravel.com/docs/8.x/installation) of any application built using this framework. Make sure you have PHP >v.7.3.33, you have created a MySQL database, and off you go!
 
 ### Prerequisites
 
