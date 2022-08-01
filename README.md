@@ -4,7 +4,6 @@
 [![Issues][issues-shield]][issues-url]
 [![GNU V.3 License][license-shield]][license-url]
 
-<!-- Leiden University Libraries Logo -->
 <br />
 <div align="center">
   <a href="https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source">
@@ -57,9 +56,9 @@
 
 [![Alma Acquisitions - Open Source][product-screenshot]](https://acquisitions.library.universiteitleiden.nl)
 
-Alma Acquisitions - Open Source is a public version of the [Leiden University Libraries New Acquisitions](https://acquisitions.library.universiteitleiden.nl) app.
+**Alma Acquisitions - Open Source (AAOS)** is the open-source version of the [Leiden University Libraries - New Acquisitions](https://acquisitions.library.universiteitleiden.nl) app.
 
-AAOS was created to display the latest acquisitions made at Leiden University Libraries: e-books, journals, e-journals, etc. It was designed to allow the library's employees to manage the acquisitions lists via an clear and user-friendly interface, rather than depending on the actions of a developer to create or modify them.
+AAOS was created to display the latest acquisitions made at Leiden University Libraries: e-books, journals, e-journals, etc. It was designed to allow the library's employees to manage the acquisitions lists via an clear and user-friendly admin interface, rather than depending on the actions of a developer to create or modify them.
 
 ### Features
 
@@ -74,7 +73,7 @@ AAOS was created to display the latest acquisitions made at Leiden University Li
 
 ## Getting Started
 
-Built with Laravel 8, AAOS follows the same installations steps of any application built using this framework. Make sure you have PHP >v.7.3.33, a database, and off you go!
+Built with **Laravel 8**, AAOS follows the same [installation steps](https://laravel.com/docs/8.x/installation) of any application built using this framework. Make sure you have PHP >v.7.3.33, you have created a MySQL database, and off you go! Please refer to the [documentation](https://example.com) for more information.
 
 ### Prerequisites
 
@@ -83,36 +82,36 @@ AAOS has few requirements:
 * PHP V.7.3.33 and above
 * Composer
 * MySQL
-* An **Analytics - Production Read-only** API key from the [ExLibris Developer Network](https://developers.exlibrisgroup.com/) coming from an account bound to your institution.
+* An **Analytics - Production Read-only** API key from the [ExLibris Developer Network](https://developers.exlibrisgroup.com/), coming from an account bound to your institution.
 
 ### Installation
 
-1. Download the release package
+1. Download the latest [release package](https://github.com/orgs/LeidenUniversityLibrary/packages?repo_name=Alma-Acquisitions-Open-Source)
 2. Unzip the release package to a folder of your choosing
-3. Composer install to install the required packages
-4. Copy the .env.example file and rename it .env
-5. Edit the .env file with your details and the name of your MySQL database
+3. ```composer install``` to install the required dependencies
+4. Copy the ```.env.example``` file and rename it ```.env```
+5. Edit the ```.env``` file with your details and the name of your MySQL database
 6. Use the command ```php artisan migrate:fresh --seed``` to populate the database with some sample data, and a user account for experimenting
 7. ```php artisan serve``` to see your local copy of Alma Acquisitions - Open Source in action.
 
 ## Usage
 
-AAOS displays data coming from Alma Analytics. If you want to change the data that is displayed in this application, you must edit your queries in Alma Analytics.
+AAOS displays data coming from Alma Analytics. If you want to change the data that is displayed in AAOS, you must edit your queries in Alma Analytics.
 
 For example:
-
 If your institution wants only to display physical books, you will have to edit the relative saved query in Alma Analytics.
-
 Similarly, if you would prefer to display only electronic books, you will have to remove the physical books from the query.
 
-*For detailed instructions on how to create Alma Analytics queries that can be used by Alma Acquisitions - Open Source, please refer to the [Documentation](https://example.com)*
+**For detailed instructions on how to create Alma Analytics queries that can be used by Alma Acquisitions - Open Source, please refer to the [documentation](https://example.com).**
 
 ## Roadmap
+
+Leiden University is busy with the following developments on its own version of this application. Once ready and tested, they will be shared with this repository:
 
 * [ ] Google Books covers
 * [ ] Frontend redesign
 
-See the [open issues](https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source/issues) for a full list of proposed features and known issues.
 
 ## Contributing
 
@@ -129,18 +128,22 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the GNU General Public License v3.0 License. See `LICENSE.txt` for more information.
+Distributed under the GNU General Public License v3.0 License. See `LICENSE` for more information.
 
 ## Contact
 
-Leiden University Libraries - [@ubleiden](https://twitter.com/ubleiden) - [contact us](https://www.library.universiteitleiden.nl/about-us/contact)
+Leiden University Libraries - [Contact us](https://www.library.universiteitleiden.nl/about-us/contact)
+
+Twitter: [@ubleiden](https://twitter.com/ubleiden)
 
 Project Link: [https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source](https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source)
 
 ## Acknowledgments
 
-* [Stack Overflow](https://stackoverflow.com/)
-* [Alma -- Ex Libris user community discussion list for Alma](https://exlibrisusers.org/listinfo/alma)
+* [Stack Overflow][Stackoverflow-url]
+* [Bootstrap][Bootstrap-url]
+* [Laravel][Laravel-url]
+* [Alma - Ex Libris user community discussion list for Alma](https://exlibrisusers.org/listinfo/alma)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -161,3 +164,4 @@ Project Link: [https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open
 [Laravel-url]: https://laravel.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[Stackoverflow-url]: https://stackoverflow.com/
