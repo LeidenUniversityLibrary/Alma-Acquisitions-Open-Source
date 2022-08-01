@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source">
-    <img src="public_html/img/ul_logo.png" alt="Leiden University Libraries Logo" height="160">
+    <img src="README/ul_logo.png" alt="Leiden University Libraries Logo" height="160">
   </a>
 
 <h3 align="center">Alma Acquisitions - Open Source</h3>
@@ -156,7 +156,7 @@ Project Link: [https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open
 [license-url]: https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: README/screenshot.png
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
