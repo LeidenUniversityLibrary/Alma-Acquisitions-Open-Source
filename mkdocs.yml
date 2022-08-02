@@ -1,0 +1,66 @@
+## Project information
+site_name: UBL Acquisitions
+site_url: https://acquisitions.library.universiteitleiden.nl/
+site_description: Display your library's most recent acquisitions!
+
+## Repository
+repo_name: acquisitions
+repo_url: https://github.com/LeidenUniversityLibrary/acquisitions
+edit_uri: ''  #disables edit button
+
+## Configuration
+theme:
+  name: material
+  logo: assets/images/favicon.png
+  favicon: assets/images/favicon.png
+  custom_dir: docs/override/
+  palette:
+    scheme: leidenuniv
+    primary: white
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.tracking
+  font:
+    text: Open Sans
+    code: Ubuntu
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - abbr
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+        custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Getting started:
+    - Introduction: introduction.md
+    - Requirements: requirements.md
+    - Installation: installation.md
+    - Customization: customization.md
+    - Publishing your site: publishing-your-site.md
+    - Troubleshooting: troubleshooting.md
+  - More info:
+    - Data privacy: data-privacy.md
+    - About us: about.md
+    - License: license.md
+
+copyright: GNU General Public License v3.0 - Leiden University Libraries
+
+## Social Media
+extra:
+  social:
+    - icon: fontawesome/solid/house
+      link: https://www.universiteitleiden.nl
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/LeidenUniversityLibrary
