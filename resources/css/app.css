@@ -1,0 +1,22 @@
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #f8fafc;
+}
+
+a {
+    text-decoration: none;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control,
+table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control {
+    padding-left: 3em;
+}
+
+.container {
+    background-color: #fff;
+}
+
+.border-leiden {
+    border-width: 2.5rem !important;
+    border-color: #7f88ab !important;
+}
