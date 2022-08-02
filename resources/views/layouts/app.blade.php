@@ -89,11 +89,9 @@
     <meta name="language" content="English">
     <meta name="author" content="My Institution">
     <link rel="canonical" href={{ URL::current() }}>
-    <link rel="icon" type="image/png" href="{{ asset('img/favicon-196x196.png') }}" sizes="196x196"/>
-    <link rel="icon" type="image/png" href="{{ asset('img/favicon-96x96.png') }}" sizes="96x96"/>
-    <link rel="icon" type="image/png" href="{{ asset('img/favicon-32x32.png') }}" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="{{ asset('img/favicon-128x128.png') }}" sizes="128x128"/>
+    <link rel="icon" type="image/png" href="{{ asset('img/favicon-48x48.png') }}" sizes="96x96"/>
     <link rel="icon" type="image/png" href="{{ asset('img/favicon-16x16.png') }}" sizes="16x16"/>
-    <link rel="icon" type="image/png" href="{{ asset('img/favicon-128.png') }}" sizes="128x128"/>
     {{-- CSRF Token --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
     {{-- Styles --}}
@@ -107,7 +105,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container shadow-sm">
                 <a class="navbar-brand" href="https://example.com">
-                    <img src="{{ asset('img/logo.png') }}" width="151" height="64" alt="My Institution Logo"
+                    <img src="{{ asset('img/logo.png') }}" height="64" alt="My Institution Logo"
                          id="logo_header">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -226,7 +224,7 @@
                         <ul class="list-unstyled text-small">
                             <li>
                                 <p class="text-muted">Designed and developed by <a
-                                        href="https://github.com/LeidenUniversityLibrary" target="_blank"
+                                        href="https://example.com" target="_blank"
                                         rel="noopener">My Institution</a>.
                                 </p>
                             </li>
