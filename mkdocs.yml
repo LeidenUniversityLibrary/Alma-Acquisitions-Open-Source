@@ -1,11 +1,11 @@
 ## Project information
-site_name: UBL Acquisitions
-site_url: https://acquisitions.library.universiteitleiden.nl/
-site_description: Display your library's most recent acquisitions!
+site_name: Alma Acquisitions - Open Source
+site_url: https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/
+site_description: "AAOS was created to display your library's latest acquisitions: e-books, journals, e-journals, etc. t was designed to allow the library's employees to manage the acquisitions lists via an clear and user-friendly admin interface."
 
 ## Repository
-repo_name: acquisitions
-repo_url: https://github.com/LeidenUniversityLibrary/acquisitions
+repo_name: Alma-Acquisitions-Open-Source
+repo_url: https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source
 edit_uri: ''  #disables edit button
 
 ## Configuration
@@ -35,23 +35,28 @@ markdown_extensions:
   - abbr
   - pymdownx.details
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - footnotes
   - def_list
   - pymdownx.tasklist:
-        custom_checkbox: true
+      custom_checkbox: true
+
+
 
 nav:
   - Home: index.md
   - Getting started:
     - Introduction: introduction.md
     - Requirements: requirements.md
-    - Installation: installation.md
-    - Customization: customization.md
-    - Publishing your site: publishing-your-site.md
-    - Troubleshooting: troubleshooting.md
+    - Part I - Alma Analytics: alma-analytics.md
+    - Part II - Installation: installation.md
+    - Part III - Creating acquisitions lists: creating-acquisitions-lists.md
+    - Part IV - Customizations: customizations.md
   - More info:
-    - Data privacy: data-privacy.md
     - About us: about.md
     - License: license.md
 
