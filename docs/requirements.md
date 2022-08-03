@@ -1,6 +1,4 @@
-# PHP & Database requirements
-
-This app is based on [Laravel 8](https://laravel.com/docs/8.x/releases) and has, therefore, the same requirements.
+Alma Acquisitions - Opens Source (AAOS) is based on [Laravel 8](https://laravel.com/docs/8.x/releases) and has, therefore, the same requirements.
 
 ## PHP Requirements
 
@@ -23,5 +21,7 @@ This app is based on [Laravel 8](https://laravel.com/docs/8.x/releases) and has,
 * SQL Server 2017+
 
 ## ExLibris Requirements
+
 * Alma
 * Alma Analytics
+* Alma **Analytics - Production Read-only** API key from the [ExLibris Developer Network](https://developers.exlibrisgroup.com/), coming from an account bound to your institution.

@@ -1,4 +1,3 @@
-Once you have created at least one acquisitions list in Alma Analytics, you can proceed and install AAOS:
 
 1. Download the [latest package](https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source/packages) available from GitHub.
 2. Unzip the package in a directory of your choosing.
@@ -22,12 +21,13 @@ Once you have created at least one acquisitions list in Alma Analytics, you can 
 
 For production environments, or for extended development, we recommend using MySQL as your database.
 
-1. In your `.env` file, make sure `DB_CONNECTION=mysql` is set.  
-2. Generate a MySQL database on the server, and make sure that the `.env` settings are properly set, and that the AAOS can make a connection to your database.  
-3. `php artisan migrate:fresh` to populate the database with the right tables.
+1. In your .env file, make sure `DB_CONNECTION=mysql` is set.  
+2. Generate a MySQL database on the server, and make sure that the `.env` settings are properly set and that the application can make a connection.  
+3. `php artisan migrate:fresh` to populate the database, and create dummy data and an admin user.  
 4. `php artisan serve` to lunch your application.
 
-
+!!! Danger
+    Do not use `php artisan migrate:fresh` on a public/production server, unless you are starting out: **you will overwrite all the data!**
 
 ### SQLite
 
@@ -38,32 +38,21 @@ If you are only testing the application, we advise using SQLite:
 3. `php artisan migrate:fresh` to populate the database, and create dummy data and an admin user.  
 4. `php artisan serve` to lunch your application.
 
-!!! NOTE
-    While you have created the tables, you have not created an admin user, or added any data to the database. AAOS will return a `error - 404` because it cannot find any acquisitions. This is correct and expected.
-
-!!! Danger
-    Do not use `php artisan migrate:fresh` on a public/production server, unless you are starting out: **you will erase all the data from the database!**
-
 ## Creating an admin account
 
-Once you have created and connected to a database, and you have generated the tables, you must generate an admin account. To generate a admin user, or creating multiple admin users, we use [Tinker](https://laravel.com/docs/8.x/artisan). Tinker is included in Laravel.  
-These commands can be used both locally or on the server for both SQLite and MySQL databases.
+Once you have created and connected to a database, you must generate an admin account. To generate a admin user, or creating multiple admin users, we use Tinker. Tinker is included in Laravel.  
+These commands can be used both locally or on the server for both SQLite and MySQL.
 
 1. `php artisan tinker`  
 2. `DB::table('users')->insert(['name'=>'YourUsername','email'=>'thisis@youremail.com','password'=>Hash::make('TypeYourPasswordHere')])`
 
-This will return `true`, meaning that an account has been added to the database.
-
-!!! NOTE
-    Any user created in this application is an admin. There is no differentiation in roles implemented.
+This will return `true`, meaning that and account has been added to the database.
 
 ## Start using your application
 
-On your local machine, you can use `php artisan serve` to launch a local version of your application. You will be able to login at <http://127.0.0.1:8000/login>.
+On your local machine, you can use `php artisan serve` to launch a local version of your application. You will be able to login at <http://127.0.0.1:8000/login>
 
-Once you have logged in, AAOS will query the Alma API and return the list of available acquisitions lists that can be created at <http://127.0.0.1:8000/admin>.
-
-If you have installed the application on your server, and used Tinker to create an admin account, proceed directly to `yourURL.com/login` or `yourURL.com/admin`.
+If you have installed the application on your server, and used Tinker to create an admin account, proceed directly to `yourURL.com/login`.
 
 ## Additional notes
 
