@@ -16,7 +16,7 @@
     Display your library's latest acquisitions using data coming from Alma.
     <br />
     <!--TODO-->
-    <a href="#"><strong>Explore the docs » (coming soon)</strong></a>
+    <a href="https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://acquisitions.library.universiteitleiden.nl">View Demo</a>
@@ -56,7 +56,7 @@
 
 [![Alma Acquisitions - Open Source][product-screenshot]](https://acquisitions.library.universiteitleiden.nl)
 
-**Alma Acquisitions - Open Source (AAOS)** is the open-source version of the [Leiden University Libraries - New Acquisitions](https://acquisitions.library.universiteitleiden.nl) app.
+**Alma Acquisitions - Open Source (AAOS)** is the open-source version of [Acquisitions - New books at the library](https://acquisitions.library.universiteitleiden.nl) in use at Leiden University Libraries.
 
 AAOS was created to display the latest acquisitions made at Leiden University Libraries: e-books, journals, e-journals, etc. It was designed to allow the library's employees to manage the acquisitions lists via an clear and user-friendly admin interface, rather than depending on the actions of a developer to create or modify them.
 
@@ -73,7 +73,7 @@ AAOS was created to display the latest acquisitions made at Leiden University Li
 
 ## Getting Started
 
- Please refer to the [documentation](https://example.com) for more information about creating a test user, setting up the database, etc.
+ Please refer to the [documentation](https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/) for more information about creating a test user, setting up the database, etc.
 
 In general: built with **Laravel 8**, AAOS follows the same [installation steps](https://laravel.com/docs/8.x/installation) of any application built using this framework. Make sure you have PHP >v.7.3.33, you have created a MySQL database, and off you go!
 
