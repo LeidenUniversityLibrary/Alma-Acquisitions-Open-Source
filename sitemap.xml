@@ -1,63 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/</loc>
-         <lastmod>2022-08-02</lastmod>
+         <loc>https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/about/</loc>
-         <lastmod>2022-08-02</lastmod>
+         <loc>https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/about/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/configuration/</loc>
-         <lastmod>2022-08-02</lastmod>
+         <loc>https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/alma-analytics/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/controllers/</loc>
-         <lastmod>2022-08-02</lastmod>
+         <loc>https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/creating-acquisitions-lists/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/data-privacy/</loc>
-         <lastmod>2022-08-02</lastmod>
+         <loc>https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/customizations/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/deployment/</loc>
-         <lastmod>2022-08-02</lastmod>
+         <loc>https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/getting-started/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/directory_structure/</loc>
-         <lastmod>2022-08-02</lastmod>
+         <loc>https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/installation/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/installation/</loc>
-         <lastmod>2022-08-02</lastmod>
+         <loc>https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/introduction/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/license/</loc>
-         <lastmod>2022-08-02</lastmod>
+         <loc>https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/license/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/models/</loc>
-         <lastmod>2022-08-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/routing/</loc>
-         <lastmod>2022-08-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://acquisitions.library.universiteitleiden.nl/setup/</loc>
-         <lastmod>2022-08-02</lastmod>
+         <loc>https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/requirements/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

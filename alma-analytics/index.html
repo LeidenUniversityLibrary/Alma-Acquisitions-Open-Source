@@ -6,31 +6,30 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Display your library's most recent acquisitions!">
+        <meta name="description" content="AAOS displays your library's latest acquisitions: e-books, journals, e-journals, etc. and allows the library's employees to manage the acquisitions lists via an clear and user-friendly admin interface.">
       
       
       
-        <link rel="canonical" href="https://acquisitions.library.universiteitleiden.nl/configuration/">
+        <link rel="canonical" href="https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/alma-analytics/">
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.15">
     
     
       
-        <title>Configuration - UBL Acquisitions</title>
+        <title>Part I - Alma Analytics - Alma Acquisitions - Open Source</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.1d29e8d0.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.c382b1dc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
         
           
           
           <meta name="theme-color" content="#ffffff">
         
-      
       
     
     
@@ -70,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#alma-analytics" class="md-skip">
+        <a href="#creating-a-latest-acquisitions-query-in-alma-analytics" class="md-skip">
           Skip to content
         </a>
       
@@ -84,7 +83,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="UBL Acquisitions" class="md-header__button md-logo" aria-label="UBL Acquisitions" data-md-component="logo">
+    <a href=".." title="Alma Acquisitions - Open Source" class="md-header__button md-logo" aria-label="Alma Acquisitions - Open Source" data-md-component="logo">
       
   <img src="../assets/images/favicon.png" alt="logo">
 
@@ -96,13 +95,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            UBL Acquisitions
+            Alma Acquisitions - Open Source
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Configuration
+              Part I - Alma Analytics
             
           </span>
         </div>
@@ -146,13 +145,13 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/LeidenUniversityLibrary/acquisitions" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    acquisitions
+    Alma-Acquisitions-Open-Source
   </div>
 </a>
       </div>
@@ -186,13 +185,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../introduction.md" class="md-tabs__link">
+      <a href="../introduction/" class="md-tabs__link md-tabs__link--active">
         Getting started
       </a>
     </li>
@@ -208,7 +209,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../data-privacy/" class="md-tabs__link">
+      <a href="../about/" class="md-tabs__link">
         More info
       </a>
     </li>
@@ -236,22 +237,22 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="UBL Acquisitions" class="md-nav__button md-logo" aria-label="UBL Acquisitions" data-md-component="logo">
+    <a href=".." title="Alma Acquisitions - Open Source" class="md-nav__button md-logo" aria-label="Alma Acquisitions - Open Source" data-md-component="logo">
       
   <img src="../assets/images/favicon.png" alt="logo">
 
     </a>
-    UBL Acquisitions
+    Alma Acquisitions - Open Source
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/LeidenUniversityLibrary/acquisitions" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/LeidenUniversityLibrary/Alma-Acquisitions-Open-Source" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    acquisitions
+    Alma-Acquisitions-Open-Source
   </div>
 </a>
     </div>
@@ -279,12 +280,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -307,7 +310,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../introduction.md" class="md-nav__link">
+      <a href="../introduction/" class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -321,9 +324,67 @@
   
   
     <li class="md-nav__item">
-      <a href="../requirements.md" class="md-nav__link">
+      <a href="../requirements/" class="md-nav__link">
         Requirements
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Part I - Alma Analytics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Part I - Alma Analytics
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-latest-acquisitions-query-in-alma-analytics" class="md-nav__link">
+    Creating a 'Latest Acquisitions' query in Alma Analytics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-an-acquisitions-list-for-a-specific-subject-in-alma-analytics" class="md-nav__link">
+    Creating an acquisitions list for a specific subject in Alma Analytics
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -336,7 +397,7 @@
   
     <li class="md-nav__item">
       <a href="../installation/" class="md-nav__link">
-        Installation
+        Part II - Installation
       </a>
     </li>
   
@@ -349,8 +410,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../customization.md" class="md-nav__link">
-        Customization
+      <a href="../creating-acquisitions-lists/" class="md-nav__link">
+        Part III - Creating acquisitions lists
       </a>
     </li>
   
@@ -363,22 +424,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../publishing-your-site.md" class="md-nav__link">
-        Publishing your site
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../troubleshooting.md" class="md-nav__link">
-        Troubleshooting
+      <a href="../customizations/" class="md-nav__link">
+        Part IV - Customizations
       </a>
     </li>
   
@@ -418,20 +465,6 @@
           More info
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../data-privacy/" class="md-nav__link">
-        Data privacy
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -492,63 +525,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#alma-analytics" class="md-nav__link">
-    Alma Analytics
+  <a href="#creating-a-latest-acquisitions-query-in-alma-analytics" class="md-nav__link">
+    Creating a 'Latest Acquisitions' query in Alma Analytics
   </a>
-  
-    <nav class="md-nav" aria-label="Alma Analytics">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#creating-an-latest-acquisitions-query-in-alma-analytics" class="md-nav__link">
-    Creating an 'Latest Acquisitions' query in Alma Analytics
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#creating-an-acquisitions-list-for-a-specific-subject-in-alma-analytics" class="md-nav__link">
-    Creating an acquisitions list for a specific subject in Alma Analytics
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration-file" class="md-nav__link">
-    Configuration file
+  <a href="#creating-an-acquisitions-list-for-a-specific-subject-in-alma-analytics" class="md-nav__link">
+    Creating an acquisitions list for a specific subject in Alma Analytics
   </a>
-  
-    <nav class="md-nav" aria-label="Configuration file">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#general" class="md-nav__link">
-    General
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#alma-settings" class="md-nav__link">
-    Alma Settings
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#primo-settings" class="md-nav__link">
-    Primo Settings
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -566,17 +552,15 @@
                 
 
 
-  <h1>Configuration</h1>
+  <h1>Part I - Alma Analytics</h1>
 
-<h2 id="alma-analytics">Alma Analytics</h2>
 <p>Alma Acquisitions (Open Source) requires data to be generated in Alma Analytics first. This data will then be requested via the Alma Analytics API and finally imported into the application.</p>
-<div class="highlight"><pre><span></span><code>graph LR
+<pre class="mermaid"><code>graph LR
 A[Alma Analytics API] --&gt; |1. requests data from| B[Alma Analytics];
 B --&gt; |2. requests data from| C[Oracle Analytics Server]
 C --&gt; |3. sends data to| B;
 B --&gt; |4. sends data to| A;
-A --&gt; |5. sends data to| D[Alma Acquisitions Open Source];
-</code></pre></div>
+A --&gt; |5. finally, sends data to | D[Alma Acquisitions Open Source];</code></pre>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p><strong>Before attempting to run this application and importing data, you must make sure that your Alma Analytics data configuration is properly setup.</strong></p>
@@ -585,7 +569,7 @@ A --&gt; |5. sends data to| D[Alma Acquisitions Open Source];
 <p class="admonition-title">Note</p>
 <p>Alma Analytics refreshes its data only once a day, furthermore it is build on top of Oracle Analytics Server (OAS)<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. For performance and usability reasons, this application stores and consumes data from a database, rather than relying on <em>on-the-fly</em> requests via the Alma Analytics API.</p>
 </div>
-<h3 id="creating-an-latest-acquisitions-query-in-alma-analytics">Creating an 'Latest Acquisitions' query in Alma Analytics</h3>
+<h2 id="creating-a-latest-acquisitions-query-in-alma-analytics">Creating a 'Latest Acquisitions' query in Alma Analytics</h2>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Alma Acquisitions (Open Source) expects <strong>exactly</strong> the following columns. You can use other columns, but you will have to edit the views in <code>resources\views</code> and the JavaScript in <code>public_html\js\datatable.js</code> to accommodate your customizations.</p>
@@ -609,88 +593,28 @@ A --&gt; |5. sends data to| D[Alma Acquisitions Open Source];
 <p>As 'Filters', add the following:</p>
 <ul>
 <li>(Advanced SQL Filter) <code>"Bibliographic Details"."Creation Date" &gt;= TIMESTAMPADD(SQL_TSI_MONTH, -6, CURRENT_DATE)</code><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup><br />
-<img alt="Advanced SQL filter" loading="lazy" src="/assets/images/docs/advanced_sql_filter.png" />
+<img alt="Advanced SQL filter" loading="lazy" src="../assets/images/docs/advanced_sql_filter.png" />
 <strong>AND</strong></li>
 <li><code>MMS Id is not equal to any  MMS Id in Acquisitions Process Types</code><sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup><br />
-<img alt="MMS Id" loading="lazy" src="/assets/images/docs/mms_id.png" />
+<img alt="MMS Id" loading="lazy" src="../assets/images/docs/mms_id.png" />
 <strong>AND</strong></li>
 <li><code>Resource Type is equal to / is in  Book - Electronic; Book - Physical; Book chapter - Electronic; Journal - Electronic; Journal - Physical</code><sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>
-  <img alt="Resource Type" loading="lazy" src="/assets/images/docs/resource_type.png" />
+  <img alt="Resource Type" loading="lazy" src="../assets/images/docs/resource_type.png" />
 <strong>AND</strong></li>
 <li>(Physical Items)<code>Bibliographic Lifecycle is equal to / is in  In Repository</code><sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup><br />
 <strong>OR</strong></li>
 <li>(E-Inventory)<code>Bibliographic Lifecycle is equal to / is in  In Repository</code>[^6]</li>
 </ul>
 <p>Your criteria should look like this:
-<img alt="Latest acquisitions criteria in Alma Analytics" loading="lazy" src="/assets/images/docs/all_acquisitions.png" /></p>
-<h3 id="creating-an-acquisitions-list-for-a-specific-subject-in-alma-analytics">Creating an acquisitions list for a specific subject in Alma Analytics</h3>
+<img alt="Latest acquisitions criteria in Alma Analytics" loading="lazy" src="../assets/images/docs/all_acquisitions.png" /></p>
+<h2 id="creating-an-acquisitions-list-for-a-specific-subject-in-alma-analytics">Creating an acquisitions list for a specific subject in Alma Analytics</h2>
 <p>To create an acquisitions list that includes items from a specific subject, start by following the steps in the <a href="./#creating-an-latest-acquisitions-query-in-alma-analytics">previous chapter</a>. In the 'Criteria' tab, add a new <strong>AND</strong> to your filters and choose any filter that may fit your case. For example, if you are creating a acquisitions list for <em>Russian Studies</em>, you might want to add a filter like:
 <code>Subjects contains any Russia.</code>  </p>
-<p><img alt="Russian Studies filter" loading="lazy" src="/assets/images/docs/russian_studies.png" /></p>
+<p><img alt="Russian Studies filter" loading="lazy" src="../assets/images/docs/russian_studies.png" /></p>
 <p>You can add as many filters as you need.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>At Leiden University Libraries, the filters for a specific acquisitions list are defined by the Subject Specialist and implemented in Alma Analytics by one of the Alma System Managers.</p>
-</div>
-<h2 id="configuration-file">Configuration file</h2>
-<p>You can change the configuration of the Alma Acquisitions (Open Source) app in the configuration file:</p>
-<p><code>config/acquisitions.php</code></p>
-<p>You can set the values of each option in your <code>.env</code> file.</p>
-<h3 id="general">General</h3>
-<ul>
-<li>
-<p><code>institution_name =&gt; env('INST_NAME', NULL),</code><br />
-Your institution's name. Defaults to <code>My Institution</code>.</p>
-</li>
-<li>
-<p><code>homepage_acquisitions_list =&gt; env('HOMEPAGE_ACQUISITIONS_LIST', NULL),</code><br />
-The name of the acquisitions list that will be displayed on the homepage off the app. Defaults to <code>NULL</code>.</p>
-</li>
-<li>
-<p><code>google_analytics_id =&gt; env('GOOGLE_ANALYTICS_TRACKING_ID', NULL)</code><br />
-Your Google Analytics ID. Defaults to <code>NULL</code>.</p>
-</li>
-</ul>
-<h3 id="alma-settings">Alma Settings</h3>
-<ul>
-<li>
-<p><code>alma_api_key =&gt; env('ALMA_API_KEY', NULL),</code><br />
-Your Alma API key. Defaults to <code>NULL</code> if not set.</p>
-</li>
-<li>
-<p><code>shared_reports_path =&gt; env('SHARED_REPORTS_PATH', NULL),</code><br />
-The <code>path</code> that leads to your acquisitions lists generated in Alma Analytics. See the <a href="https://developers.exlibrisgroup.com/alma/apis/docs/analytics/R0VUIC9hbG1hd3MvdjEvYW5hbHl0aWNzL3BhdGhzL3twYXRofQ==/">official Alma API documentation</a> to find the path that applies to your institution. Defaults to <code>NULL</code>.  </p>
-</li>
-<li>
-<p><code>admin_shared_reports_path =&gt; env('ADMIN_SHARED_REPORTS_PATH', NULL),</code><br />
-This path is slightly different from the <code>shared_reports_path</code>: if the path is encoded, the API call will not work, returning a <code>Error 400</code> by the API.</p>
-</li>
-</ul>
-<h3 id="primo-settings">Primo Settings</h3>
-<p>These settings are used to build the links from this application to our Primo installation.
-Here is an example of the URL generated at Leiden University:
-<code>https://catalogue.leidenuniv.nl/primo-explore/search?query=any,exact,9939992010202711&amp;tab=leiden&amp;search_scope=Local&amp;vid=UBL_V1&amp;lang=en_US&amp;offset=0</code></p>
-<ul>
-<li>
-<p><code>'primo_URL' =&gt; env('PRIMO_URL', NULL),</code>
-The base URL of your primo installation. For example: <a href="https://catalogue.mylibrary.com">https://catalogue.mylibrary.com</a></p>
-</li>
-<li>
-<p><code>'primo_tab' =&gt; env('PRIMO_TAB', NULL),</code>
-The <a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/Primo/Back_Office_Guide/060Configuring_Primo%E2%80%99s_Front_End/020Views_Wizard#ww1329562">Primo Tab</a> where your acquired items appear.</p>
-</li>
-<li>
-<p><code>'primo_scope' =&gt; env('PRIMO_SCOPE', NULL),</code>
-The Primo Search Scope - Also known as <a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/040Search_Configurations/010Configuring_Search_Profiles_for_Primo_VE">Search Profile</a> in Primo VE - where your new acquisitions appear.</p>
-</li>
-<li>
-<p><code>'primo_vid' =&gt; env('PRIMO_VID', NULL),</code>
-The <a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/Primo/Back_Office_Guide/060Configuring_Primo%E2%80%99s_Front_End/020Views_Wizard">Primo View Code</a> used at your institution.</p>
-</li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Alma Acquisitions (Open Source) searches for an item's MMS ID, which is a unique identifier; this is why in the URL construction we chose for <code>any,exact,MMS_ID</code>. If your institution prefers or requires another URL construction, you can easily edit this part to fit your needs by looking at the <a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/Primo/End_User_Help_-_New_UI/020Performing_Advanced_Searches">Performing Advanced Searches</a> page in the documentation.</p>
 </div>
 <div class="footnote">
 <hr />
@@ -715,13 +639,47 @@ The <a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/Pri
 
               
             </article>
-            
           </div>
         </div>
         
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../requirements/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Requirements" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Requirements
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../installation/" class="md-footer__link md-footer__link--next" aria-label="Next: Part II - Installation" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Part II - Installation
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -769,10 +727,10 @@ The <a href="https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/Pri
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.tracking"], "search": "../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.tracking"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      <script src="../assets/javascripts/bundle.a6c66575.min.js"></script>
       
     
   </body>
