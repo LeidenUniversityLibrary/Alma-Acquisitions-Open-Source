@@ -11,7 +11,7 @@ edit_uri: ''  #disables edit button
 ## Configuration
 theme:
   name: material
-  logo: assets/images/favicon.png
+  logo: assets/images/favicon.svg
   favicon: assets/images/favicon.png
   custom_dir: docs/override/
   palette:
