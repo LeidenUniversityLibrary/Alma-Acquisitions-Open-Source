@@ -1,7 +1,7 @@
 ## Project information
 site_name: Alma Acquisitions - Open Source
 site_url: https://leidenuniversitylibrary.github.io/Alma-Acquisitions-Open-Source/
-site_description: "AAOS was created to display your library's latest acquisitions: e-books, journals, e-journals, etc. t was designed to allow the library's employees to manage the acquisitions lists via an clear and user-friendly admin interface."
+site_description: "AAOS displays your library's latest acquisitions: e-books, journals, e-journals, etc. and allows the library's employees to manage the acquisitions lists via an clear and user-friendly admin interface."
 
 ## Repository
 repo_name: Alma-Acquisitions-Open-Source

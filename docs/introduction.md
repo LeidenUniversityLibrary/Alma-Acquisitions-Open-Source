@@ -11,7 +11,7 @@ B --> |4. sends data to| A;
 A --> |5. finally, sends data to | D[Alma Acquisitions Open Source];
 ```
 
-### Features
+## Features
 
 * An admin panel for creating, updating, and deleting displayable acquisitions lists
 * An easy-to-customize environment

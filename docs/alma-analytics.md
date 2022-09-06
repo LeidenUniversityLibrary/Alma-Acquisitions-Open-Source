@@ -15,7 +15,7 @@ A --> |5. finally, sends data to | D[Alma Acquisitions Open Source];
 !!! Note
       Alma Analytics refreshes its data only once a day, furthermore it is build on top of Oracle Analytics Server (OAS)[^1]. For performance and usability reasons, this application stores and consumes data from a database, rather than relying on *on-the-fly* requests via the Alma Analytics API.
 
-### Creating a 'Latest Acquisitions' query in Alma Analytics
+## Creating a 'Latest Acquisitions' query in Alma Analytics
 
 !!! Important
       Alma Acquisitions (Open Source) expects **exactly** the following columns. You can use other columns, but you will have to edit the views in `resources\views` and the JavaScript in `public_html\js\datatable.js` to accommodate your customizations.
@@ -55,7 +55,7 @@ As 'Filters', add the following:
 Your criteria should look like this:
 ![Latest acquisitions criteria in Alma Analytics](assets/images/docs/all_acquisitions.png){ loading=lazy }
 
-### Creating an acquisitions list for a specific subject in Alma Analytics
+## Creating an acquisitions list for a specific subject in Alma Analytics
 
 To create an acquisitions list that includes items from a specific subject, start by following the steps in the [previous chapter](alma-analytics.md#creating-an-latest-acquisitions-query-in-alma-analytics). In the 'Criteria' tab, add a new **AND** to your filters and choose any filter that may fit your case. For example, if you are creating a acquisitions list for *Russian Studies*, you might want to add a filter like:
 ```Subjects contains any Russia.```  

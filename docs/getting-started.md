@@ -57,7 +57,7 @@ If you have installed the application on your server, and used Tinker to create 
 ## Additional notes
 
 !!! Note
-    The main folder in Laravel is named `public`, some servers use `public_html` instead. Make sure your DNS points to the "public" folder.
+    The main folder in Laravel is named `public`, some servers use `public_html` instead. Make sure your document root directory is the  `public` folder.
     You can also decide to use the `public_html` folder instead, but you will have to make some changes to your configuration. How to do this is out of scope of this documentation.
 
 !!! Note

@@ -44,16 +44,16 @@ The Primo Search Scope - Also known as [Search Profile](https://knowledge.exlibr
 The [Primo View Code](https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/Primo/Back_Office_Guide/060Configuring_Primo%E2%80%99s_Front_End/020Views_Wizard) used at your institution.
 
 !!! NOTE
-      Alma Acquisitions (Open Source) searches for an item's MMS ID, which is a unique identifier; this is why in the URL construction we chose for `any,exact,MMS_ID`. If your institution prefers or requires another URL construction, you can easily edit this part to fit your needs by looking at the [Performing Advanced Searches](https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/Primo/End_User_Help_-_New_UI/020Performing_Advanced_Searches) page in the documentation.
+      Alma Acquisitions (Open Source) searches for an item's MMS ID, which is a unique identifier; this is why in the URL construction we chose for `any,exact,MMS_ID`. If your institution prefers or requires another URL construction, you can edit this part to fit your needs by looking at the [Performing Advanced Searches](https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/Primo/End_User_Help_-_New_UI/020Performing_Advanced_Searches) page in the documentation.
 
 ### Google Analytics
 
 This application can use Google Analytics to track usage if needed. You can configure your GA tracking ID in the `.env` file.
 
-Note that the IS called from the services file in `config/services.php`, like so:
+Note that the Google Analytics Tracking ID is called from the services file in `config/services.php`, like so:
 
 * `google_analytics_id => env('GOOGLE_ANALYTICS_TRACKING_ID', NULL)`  
-Your Google Analytics ID. Defaults to `NULL`.
+Defaults to `NULL`.
 
 ## Changing imported columns
 
